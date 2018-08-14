@@ -1,2 +1,4 @@
 # NetworkDemo
 获取服务器数据实例
+
+分别使用了HttpsURLConnection方法与OkHttp方法
