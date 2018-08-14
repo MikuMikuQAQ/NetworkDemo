@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 /*
-*
+* 方法一：
 * HttpsURLConnection方法实现网络请求
 *
 * */
@@ -87,7 +87,11 @@ public class MainActivity extends AppCompatActivity {
             }
         }).start();
     }*/
-
+/*
+* 方法二
+* OkHttp实例
+*
+* */
     private void sendHttp(){
         new Thread(new Runnable() {
             @Override
